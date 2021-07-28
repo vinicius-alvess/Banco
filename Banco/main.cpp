@@ -35,16 +35,16 @@ void ExibeDadosDoTitular(Titular& titular)
     cout << "Nome: " << titular.recuperaNome() << endl;
 }
 
-void ExibeDadosDoFuncionario(Funcionario& funcionario)
-{
-    cout << endl;
-    cout << "Funcionario: " << endl;
-    cout << "Cpf: " << funcionario.recuperaCpf() << endl;
-    cout << "Nome: " << funcionario.recuperaNome() << endl;
-    cout << "Salario: " << funcionario.recuperaSalario() << endl;
-    cout << "Bonificacao: " << funcionario.bonificacao() << endl;
-    cout << endl;
-}
+//void ExibeDadosDoFuncionario(Funcionario& funcionario)
+//{
+//    cout << endl;
+//    cout << "Funcionario: " << endl;
+//    cout << "Cpf: " << funcionario.recuperaCpf() << endl;
+//    cout << "Nome: " << funcionario.recuperaNome() << endl;
+//    cout << "Salario: " << funcionario.recuperaSalario() << endl;
+//    cout << "Bonificacao: " << funcionario.bonificacao() << endl;
+//    cout << endl;
+//}
 
 void fazLogin(Autenticavel& alguem, std::string senha)
 {
